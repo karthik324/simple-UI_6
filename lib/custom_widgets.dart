@@ -56,17 +56,25 @@ class CustomListTile extends StatelessWidget {
                                   width: 183,
                                   child: Text(
                                     header,
+                                    style: TextStyle(
+                                        fontSize: 17,
+                                        fontWeight: FontWeight.w600),
                                   )),
                               Text("1 piece"),
                               SizedBox(
                                 height: 3,
                               ),
-                              Text("₹ $price"),
+                              Text(
+                                "₹ $price",
+                                style: TextStyle(
+                                    fontSize: 16, fontWeight: FontWeight.w500),
+                              ),
                               SizedBox(
                                 height: 4,
                               ),
                               Text(
                                 'In Stock',
+                                style: TextStyle(color: Colors.green),
                               )
                             ],
                           )
@@ -115,7 +123,10 @@ class CustomListTile extends StatelessWidget {
                         SizedBox(
                           width: 7,
                         ),
-                        Text('Share Product'),
+                        Text(
+                          'Share Product',
+                          style: TextStyle(fontSize: 16),
+                        ),
                       ],
                     ),
                   )

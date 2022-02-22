@@ -54,6 +54,22 @@ class MyApp extends StatelessWidget {
                   header: 'Combo Blahst 1| Pack..',
                   imageUrl: 'assets/images/image4.jpg',
                   price: 699),
+              CustomListTile(
+                  header: 'Mug | Orchard',
+                  imageUrl: 'assets/images/image5.jpeg',
+                  price: 449),
+              CustomListTile(
+                  header: 'Couch Potato | Women',
+                  imageUrl: 'assets/images/image1.jpg',
+                  price: 799),
+              CustomListTile(
+                  header: 'Couch Potato | Men',
+                  imageUrl: 'assets/images/image2.jpeg',
+                  price: 799),
+              CustomListTile(
+                  header: 'Combo Blahst 1| Pack..',
+                  imageUrl: 'assets/images/image4.jpg',
+                  price: 699),
             ]),
           ),
         ));
